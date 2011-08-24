@@ -60,88 +60,88 @@ h1::-moz-selection, h2::-moz-selection, h3::-moz-selection, h4::-moz-selection, 
 }
 
 .corner-top-left {
-  -moz-border-radius-topleft: 0px;
-  -khtml-border-radius-topleft: 0px;
-  -webkit-border-top-left-radius: 0px;
-  border-top-left-radius: 0px;
+  -moz-border-radius-topleft: 15px;
+  -khtml-border-radius-topleft: 15px;
+  -webkit-border-top-left-radius: 15px;
+  border-top-left-radius: 15px;
 }
 
 .corner-top-right {
-  -moz-border-radius-topright: 0px;
-  -khtml-border-radius-topright: 0px;
-  -webkit-border-top-right-radius: 0px;
-  border-top-right-radius: 0px;
+  -moz-border-radius-topright: 15px;
+  -khtml-border-radius-topright: 15px;
+  -webkit-border-top-right-radius: 15px;
+  border-top-right-radius: 15px;
 }
 
 .corner-bottom-left {
-  -moz-border-radius-bottomleft: 0px;
-  -khtml-border-radius-bottomleft: 0px;
-  -webkit-border-bottom-left-radius: 0px;
-  border-bottom-left-radius: 0px;
+  -moz-border-radius-bottomleft: 15px;
+  -khtml-border-radius-bottomleft: 15px;
+  -webkit-border-bottom-left-radius: 15px;
+  border-bottom-left-radius: 15px;
 }
 
 .corner-bottom-right {
-  -moz-border-radius-bottomright: 0px;
-  -khtml-border-radius-bottomright: 0px;
-  -webkit-border-bottom-right-radius: 0px;
-  border-bottom-right-radius: 0px;
+  -moz-border-radius-bottomright: 15px;
+  -khtml-border-radius-bottomright: 15px;
+  -webkit-border-bottom-right-radius: 15px;
+  border-bottom-right-radius: 15px;
 }
 
 .corner-top {
-  -moz-border-radius-topleft: 0px;
-  -khtml-border-radius-topleft: 0px;
-  -webkit-border-top-left-radius: 0px;
-  -moz-border-radius-topright: 0px;
-  -khtml-border-radius-topright: 0px;
-  -webkit-border-top-right-radius: 0px;
-  border-top-left-radius: 0px;
-  border-top-right-radius: 0px;
+  -moz-border-radius-topleft: 15px;
+  -khtml-border-radius-topleft: 15px;
+  -webkit-border-top-left-radius: 15px;
+  -moz-border-radius-topright: 15px;
+  -khtml-border-radius-topright: 15px;
+  -webkit-border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
 }
 
 .corner-right {
-  -moz-border-radius-topright: 0px;
-  -khtml-border-radius-topright: 0px;
-  -webkit-border-top-right-radius: 0px;
-  -moz-border-radius-bottomright: 0px;
-  -khtml-border-radius-bottomright: 0px;
-  -webkit-border-bottom-right-radius: 0px;
-  border-top-right-radius: 0px;
-  border-bottom-right-radius: 0px;
+  -moz-border-radius-topright: 15px;
+  -khtml-border-radius-topright: 15px;
+  -webkit-border-top-right-radius: 15px;
+  -moz-border-radius-bottomright: 15px;
+  -khtml-border-radius-bottomright: 15px;
+  -webkit-border-bottom-right-radius: 15px;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
 }
 
 .corner-bottom {
-  -moz-border-radius-bottomleft: 0px;
-  -khtml-border-radius-bottomleft: 0px;
-  -webkit-border-bottom-left-radius: 0px;
-  -moz-border-radius-bottomright: 0px;
-  -khtml-border-radius-bottomright: 0px;
-  -webkit-border-bottom-right-radius: 0px;
-  border-bottom-left-radius: 0px;
-  border-bottom-right-radius: 0px;
+  -moz-border-radius-bottomleft: 15px;
+  -khtml-border-radius-bottomleft: 15px;
+  -webkit-border-bottom-left-radius: 15px;
+  -moz-border-radius-bottomright: 15px;
+  -khtml-border-radius-bottomright: 15px;
+  -webkit-border-bottom-right-radius: 15px;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
 }
 
 .corner-left {
-  -moz-border-radius-topright: 0px;
-  -khtml-border-radius-topright: 0px;
-  -webkit-border-top-right-radius: 0px;
-  -moz-border-radius-bottomright: 0px;
-  -khtml-border-radius-bottomright: 0px;
-  -webkit-border-bottom-right-radius: 0px;
-  border-top-left-radius: 0px;
-  border-bottom-left-radius: 0px;
+  -moz-border-radius-topright: 15px;
+  -khtml-border-radius-topright: 15px;
+  -webkit-border-top-right-radius: 15px;
+  -moz-border-radius-bottomright: 15px;
+  -khtml-border-radius-bottomright: 15px;
+  -webkit-border-bottom-right-radius: 15px;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
 }
 
 .corner-all, .banner .center .content img.banner, .main .content .section img, .main .content .main img, .container-setup {
-  -moz-border-radius: 0px;
-  -webkit-border-radius: 0px;
-  -o-border-radius: 0px;
-  -ms-border-radius: 0px;
-  -khtml-border-radius: 0px;
-  border-radius: 0px;
-  border-top-right-radius: 0px;
-  border-top-left-radius: 0px;
-  border-bottom-right-radius: 0px;
-  border-bottom-left-radius: 0px;
+  -moz-border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -o-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -khtml-border-radius: 15px;
+  border-radius: 15px;
+  border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  border-bottom-left-radius: 15px;
 }
 
 .clearfix, .body, .body .center, .main .content .section, .main .content .main, .container-setup, .columns, .spacer {
@@ -163,11 +163,11 @@ h1::-moz-selection, h2::-moz-selection, h3::-moz-selection, h4::-moz-selection, 
 
 .center-container, .banner .center, .body .center {
   position: relative;
-  width: 960px;
+  width: 1360px;
   height: 100%;
   margin: 0 auto;
   padding: 0;
-  background: white;
+  background: transparent;
 }
 
 .box, .center-container, .banner .center, .body .center, .banner, .banner .center .content img.banner, .body, .main, .main .content, .main .content .section, .main .content .main, .main .content .section img, .main .content .main img, .main .content .section h1, .main .content .main h1, .main .content .section p, .main .content .main p, .main .content .section p img, .main .content .main p img, .container-setup {
@@ -263,88 +263,88 @@ h1::-moz-selection, h2::-moz-selection, h3::-moz-selection, h4::-moz-selection, 
 }
 
 .corner-top-left {
-  -moz-border-radius-topleft: 0px;
-  -khtml-border-radius-topleft: 0px;
-  -webkit-border-top-left-radius: 0px;
-  border-top-left-radius: 0px;
+  -moz-border-radius-topleft: 15px;
+  -khtml-border-radius-topleft: 15px;
+  -webkit-border-top-left-radius: 15px;
+  border-top-left-radius: 15px;
 }
 
 .corner-top-right {
-  -moz-border-radius-topright: 0px;
-  -khtml-border-radius-topright: 0px;
-  -webkit-border-top-right-radius: 0px;
-  border-top-right-radius: 0px;
+  -moz-border-radius-topright: 15px;
+  -khtml-border-radius-topright: 15px;
+  -webkit-border-top-right-radius: 15px;
+  border-top-right-radius: 15px;
 }
 
 .corner-bottom-left {
-  -moz-border-radius-bottomleft: 0px;
-  -khtml-border-radius-bottomleft: 0px;
-  -webkit-border-bottom-left-radius: 0px;
-  border-bottom-left-radius: 0px;
+  -moz-border-radius-bottomleft: 15px;
+  -khtml-border-radius-bottomleft: 15px;
+  -webkit-border-bottom-left-radius: 15px;
+  border-bottom-left-radius: 15px;
 }
 
 .corner-bottom-right {
-  -moz-border-radius-bottomright: 0px;
-  -khtml-border-radius-bottomright: 0px;
-  -webkit-border-bottom-right-radius: 0px;
-  border-bottom-right-radius: 0px;
+  -moz-border-radius-bottomright: 15px;
+  -khtml-border-radius-bottomright: 15px;
+  -webkit-border-bottom-right-radius: 15px;
+  border-bottom-right-radius: 15px;
 }
 
 .corner-top {
-  -moz-border-radius-topleft: 0px;
-  -khtml-border-radius-topleft: 0px;
-  -webkit-border-top-left-radius: 0px;
-  -moz-border-radius-topright: 0px;
-  -khtml-border-radius-topright: 0px;
-  -webkit-border-top-right-radius: 0px;
-  border-top-left-radius: 0px;
-  border-top-right-radius: 0px;
+  -moz-border-radius-topleft: 15px;
+  -khtml-border-radius-topleft: 15px;
+  -webkit-border-top-left-radius: 15px;
+  -moz-border-radius-topright: 15px;
+  -khtml-border-radius-topright: 15px;
+  -webkit-border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
 }
 
 .corner-right {
-  -moz-border-radius-topright: 0px;
-  -khtml-border-radius-topright: 0px;
-  -webkit-border-top-right-radius: 0px;
-  -moz-border-radius-bottomright: 0px;
-  -khtml-border-radius-bottomright: 0px;
-  -webkit-border-bottom-right-radius: 0px;
-  border-top-right-radius: 0px;
-  border-bottom-right-radius: 0px;
+  -moz-border-radius-topright: 15px;
+  -khtml-border-radius-topright: 15px;
+  -webkit-border-top-right-radius: 15px;
+  -moz-border-radius-bottomright: 15px;
+  -khtml-border-radius-bottomright: 15px;
+  -webkit-border-bottom-right-radius: 15px;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
 }
 
 .corner-bottom {
-  -moz-border-radius-bottomleft: 0px;
-  -khtml-border-radius-bottomleft: 0px;
-  -webkit-border-bottom-left-radius: 0px;
-  -moz-border-radius-bottomright: 0px;
-  -khtml-border-radius-bottomright: 0px;
-  -webkit-border-bottom-right-radius: 0px;
-  border-bottom-left-radius: 0px;
-  border-bottom-right-radius: 0px;
+  -moz-border-radius-bottomleft: 15px;
+  -khtml-border-radius-bottomleft: 15px;
+  -webkit-border-bottom-left-radius: 15px;
+  -moz-border-radius-bottomright: 15px;
+  -khtml-border-radius-bottomright: 15px;
+  -webkit-border-bottom-right-radius: 15px;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
 }
 
 .corner-left {
-  -moz-border-radius-topright: 0px;
-  -khtml-border-radius-topright: 0px;
-  -webkit-border-top-right-radius: 0px;
-  -moz-border-radius-bottomright: 0px;
-  -khtml-border-radius-bottomright: 0px;
-  -webkit-border-bottom-right-radius: 0px;
-  border-top-left-radius: 0px;
-  border-bottom-left-radius: 0px;
+  -moz-border-radius-topright: 15px;
+  -khtml-border-radius-topright: 15px;
+  -webkit-border-top-right-radius: 15px;
+  -moz-border-radius-bottomright: 15px;
+  -khtml-border-radius-bottomright: 15px;
+  -webkit-border-bottom-right-radius: 15px;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
 }
 
 .corner-all, .banner .center .content img.banner, .main .content .section img, .main .content .main img, .container-setup {
-  -moz-border-radius: 0px;
-  -webkit-border-radius: 0px;
-  -o-border-radius: 0px;
-  -ms-border-radius: 0px;
-  -khtml-border-radius: 0px;
-  border-radius: 0px;
-  border-top-right-radius: 0px;
-  border-top-left-radius: 0px;
-  border-bottom-right-radius: 0px;
-  border-bottom-left-radius: 0px;
+  -moz-border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -o-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -khtml-border-radius: 15px;
+  border-radius: 15px;
+  border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  border-bottom-left-radius: 15px;
 }
 
 div.pp_default .pp_top, div.pp_default .pp_top .pp_middle, div.pp_default .pp_top .pp_left, div.pp_default .pp_top .pp_right, div.pp_default .pp_bottom, div.pp_default .pp_bottom .pp_left, div.pp_default .pp_bottom .pp_middle, div.pp_default .pp_bottom .pp_right {
@@ -1423,12 +1423,12 @@ div.ppt {
 }
 .banner .center .content {
 @extent .box;
-  width: 900px;
+  width: 1200px;
   margin: 0 auto;
   padding: 0;
 }
 .banner .center .content img.banner {
-  width: 900px;
+  width: 1200px;
   height: 205px;
   margin: 0;
   padding: 0;
@@ -1444,7 +1444,7 @@ div.ppt {
 }
 .body .center .content {
 @extent .box;
-  width: 900px;
+  width: 1200px;
   margin: 0 auto;
   padding: 0;
 }
@@ -1453,11 +1453,11 @@ div.ppt {
   position: relative;
   display: inline;
   float: left;
-  width: 900px;
+  width: 1200px;
 }
 .main .content {
   position: relative;
-  width: 900px;
+  width: 1200px;
 }
 .main .content .section, .main .content .main {
   position: relative;
@@ -1475,9 +1475,9 @@ div.ppt {
   z-index: 100;
 }
 .main .content .section h1, .main .content .main h1 {
-  width: 375px;
-  margin: 0px 0 10px 215px;
-  padding: 0 3em 0.5em 0px;
+  width: 560px;
+  margin: 15px 0 10px 215px;
+  padding: 0 3em 0.5em 15px;
   color: #8ccaee !important;
   font-size: 18px;
   font-weight: 100;
@@ -1488,8 +1488,8 @@ div.ppt {
 }
 .main .content .section p, .main .content .main p {
   width: 100%;
-  margin: 0px 0 10px 0;
-  padding: 0 0 0 0px;
+  margin: 15px 0 10px 0;
+  padding: 0 0 0 15px;
   color: #666666;
   font-size: 12px;
   font-weight: 200;
@@ -1521,7 +1521,7 @@ div.ppt {
   display: inline;
   float: left;
   clear: both;
-  width: 280px;
+  width: 380px;
   margin: 0 0 30px 0;
   background: #efefef;
   border: 1px solid #499ad6;
@@ -1536,7 +1536,7 @@ div.ppt {
   display: inline;
   float: left;
   clear: left;
-  width: 280px;
+  width: 372.5px;
   margin: 0 30px 0 0;
 }
 .columns .colR {
@@ -1544,17 +1544,17 @@ div.ppt {
   display: inline;
   float: left;
   clear: right;
-  width: 280px;
+  width: 372.5px;
   margin: 0;
 }
 
 .spacer {
-  width: 900px;
+  width: 1200px;
   margin-bottom: 30px;
 }
 
 .no-image h1, .no-image p {
-  width: 900px;
+  width: 1200px;
   margin-left: 0 !important;
 }
 

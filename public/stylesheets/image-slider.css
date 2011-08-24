@@ -1,4 +1,4 @@
-.font-helvetica, #slider-wrapper {
+.font-helvetica {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
@@ -14,11 +14,11 @@
   font-family: Georgia, times, "Times New Roman", sans-serif;
 }
 
-.font-trebuchet, .font-base, .image-slider .center .captionContainer h3 {
+.font-trebuchet, .font-base {
   font-family: "Trebuchet MS", "Trebuchet", "Times New Roman";
 }
 
-.bg-gradient-primary, .image-slider .center .captionContainer p.link {
+.bg-gradient-primary {
   /* For WebKit (Safari, Google Chrome etc) */
   background: -webkit-gradient(linear, left top, left bottom, from(#8ccaee), to(#5ea6db));
   /* For Mozilla/Gecko (Firefox etc) */
@@ -29,7 +29,7 @@
   -ms-filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=$primary-light, endColorstr=$primary);
 }
 
-.bg-gradient-reverse, .image-slider .center .captionContainer p.link:hover {
+.bg-gradient-reverse {
   /* For WebKit (Safari, Google Chrome etc) */
   background: -webkit-gradient(linear, left top, left bottom, from(#5ea6db), to(#8ccaee));
   /* For Mozilla/Gecko (Firefox etc) */
@@ -60,88 +60,88 @@ h1::-moz-selection, h2::-moz-selection, h3::-moz-selection, h4::-moz-selection, 
 }
 
 .corner-top-left {
-  -moz-border-radius-topleft: 0px;
-  -khtml-border-radius-topleft: 0px;
-  -webkit-border-top-left-radius: 0px;
-  border-top-left-radius: 0px;
+  -moz-border-radius-topleft: 15px;
+  -khtml-border-radius-topleft: 15px;
+  -webkit-border-top-left-radius: 15px;
+  border-top-left-radius: 15px;
 }
 
 .corner-top-right {
-  -moz-border-radius-topright: 0px;
-  -khtml-border-radius-topright: 0px;
-  -webkit-border-top-right-radius: 0px;
-  border-top-right-radius: 0px;
+  -moz-border-radius-topright: 15px;
+  -khtml-border-radius-topright: 15px;
+  -webkit-border-top-right-radius: 15px;
+  border-top-right-radius: 15px;
 }
 
 .corner-bottom-left {
-  -moz-border-radius-bottomleft: 0px;
-  -khtml-border-radius-bottomleft: 0px;
-  -webkit-border-bottom-left-radius: 0px;
-  border-bottom-left-radius: 0px;
+  -moz-border-radius-bottomleft: 15px;
+  -khtml-border-radius-bottomleft: 15px;
+  -webkit-border-bottom-left-radius: 15px;
+  border-bottom-left-radius: 15px;
 }
 
 .corner-bottom-right {
-  -moz-border-radius-bottomright: 0px;
-  -khtml-border-radius-bottomright: 0px;
-  -webkit-border-bottom-right-radius: 0px;
-  border-bottom-right-radius: 0px;
+  -moz-border-radius-bottomright: 15px;
+  -khtml-border-radius-bottomright: 15px;
+  -webkit-border-bottom-right-radius: 15px;
+  border-bottom-right-radius: 15px;
 }
 
 .corner-top {
-  -moz-border-radius-topleft: 0px;
-  -khtml-border-radius-topleft: 0px;
-  -webkit-border-top-left-radius: 0px;
-  -moz-border-radius-topright: 0px;
-  -khtml-border-radius-topright: 0px;
-  -webkit-border-top-right-radius: 0px;
-  border-top-left-radius: 0px;
-  border-top-right-radius: 0px;
+  -moz-border-radius-topleft: 15px;
+  -khtml-border-radius-topleft: 15px;
+  -webkit-border-top-left-radius: 15px;
+  -moz-border-radius-topright: 15px;
+  -khtml-border-radius-topright: 15px;
+  -webkit-border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
 }
 
 .corner-right {
-  -moz-border-radius-topright: 0px;
-  -khtml-border-radius-topright: 0px;
-  -webkit-border-top-right-radius: 0px;
-  -moz-border-radius-bottomright: 0px;
-  -khtml-border-radius-bottomright: 0px;
-  -webkit-border-bottom-right-radius: 0px;
-  border-top-right-radius: 0px;
-  border-bottom-right-radius: 0px;
+  -moz-border-radius-topright: 15px;
+  -khtml-border-radius-topright: 15px;
+  -webkit-border-top-right-radius: 15px;
+  -moz-border-radius-bottomright: 15px;
+  -khtml-border-radius-bottomright: 15px;
+  -webkit-border-bottom-right-radius: 15px;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
 }
 
-.corner-bottom, .nivoSlider img {
-  -moz-border-radius-bottomleft: 0px;
-  -khtml-border-radius-bottomleft: 0px;
-  -webkit-border-bottom-left-radius: 0px;
-  -moz-border-radius-bottomright: 0px;
-  -khtml-border-radius-bottomright: 0px;
-  -webkit-border-bottom-right-radius: 0px;
-  border-bottom-left-radius: 0px;
-  border-bottom-right-radius: 0px;
+.corner-bottom {
+  -moz-border-radius-bottomleft: 15px;
+  -khtml-border-radius-bottomleft: 15px;
+  -webkit-border-bottom-left-radius: 15px;
+  -moz-border-radius-bottomright: 15px;
+  -khtml-border-radius-bottomright: 15px;
+  -webkit-border-bottom-right-radius: 15px;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
 }
 
 .corner-left {
-  -moz-border-radius-topright: 0px;
-  -khtml-border-radius-topright: 0px;
-  -webkit-border-top-right-radius: 0px;
-  -moz-border-radius-bottomright: 0px;
-  -khtml-border-radius-bottomright: 0px;
-  -webkit-border-bottom-right-radius: 0px;
-  border-top-left-radius: 0px;
-  border-bottom-left-radius: 0px;
+  -moz-border-radius-topright: 15px;
+  -khtml-border-radius-topright: 15px;
+  -webkit-border-top-right-radius: 15px;
+  -moz-border-radius-bottomright: 15px;
+  -khtml-border-radius-bottomright: 15px;
+  -webkit-border-bottom-right-radius: 15px;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
 }
 
-.corner-all, .image-slider .center .captionContainer p.link, .nivoSlider, #slider-wrapper, #slider {
-  -moz-border-radius: 0px;
-  -webkit-border-radius: 0px;
-  -o-border-radius: 0px;
-  -ms-border-radius: 0px;
-  -khtml-border-radius: 0px;
-  border-radius: 0px;
-  border-top-right-radius: 0px;
-  border-top-left-radius: 0px;
-  border-bottom-right-radius: 0px;
-  border-bottom-left-radius: 0px;
+.corner-all {
+  -moz-border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -o-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -khtml-border-radius: 15px;
+  border-radius: 15px;
+  border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  border-bottom-left-radius: 15px;
 }
 
 .clearfix {
@@ -163,14 +163,14 @@ h1::-moz-selection, h2::-moz-selection, h3::-moz-selection, h4::-moz-selection, 
 
 .center-container, .image-slider .center {
   position: relative;
-  width: 960px;
+  width: 1360px;
   height: 100%;
   margin: 0 auto;
   padding: 0;
-  background: white;
+  background: transparent;
 }
 
-.box, .center-container, .image-slider .center, .image-slider, .image-slider .center .captionContainer, .image-slider .center .captionContainer h1, .image-slider .center .captionContainer h3, .image-slider .center .captionContainer p.link, .nivoSlider, .nivoSlider img, #slider-wrapper, #slider {
+.box, .center-container, .image-slider .center, .image-slider, .image-slider #stripe, .nivoSlider, .nivoSlider img, #slider-wrapper, #slider {
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
   -ms-box-sizing: border-box;
@@ -201,7 +201,7 @@ b {
   font-weight: bold;
 }
 
-.font-helvetica, #slider-wrapper {
+.font-helvetica {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
@@ -217,11 +217,11 @@ b {
   font-family: Georgia, times, "Times New Roman", sans-serif;
 }
 
-.font-trebuchet, .font-base, .image-slider .center .captionContainer h3 {
+.font-trebuchet, .font-base {
   font-family: "Trebuchet MS", "Trebuchet", "Times New Roman";
 }
 
-.bg-gradient-primary, .image-slider .center .captionContainer p.link {
+.bg-gradient-primary {
   /* For WebKit (Safari, Google Chrome etc) */
   background: -webkit-gradient(linear, left top, left bottom, from(#8ccaee), to(#5ea6db));
   /* For Mozilla/Gecko (Firefox etc) */
@@ -232,7 +232,7 @@ b {
   -ms-filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=$primary-light, endColorstr=$primary);
 }
 
-.bg-gradient-reverse, .image-slider .center .captionContainer p.link:hover {
+.bg-gradient-reverse {
   /* For WebKit (Safari, Google Chrome etc) */
   background: -webkit-gradient(linear, left top, left bottom, from(#5ea6db), to(#8ccaee));
   /* For Mozilla/Gecko (Firefox etc) */
@@ -263,161 +263,120 @@ h1::-moz-selection, h2::-moz-selection, h3::-moz-selection, h4::-moz-selection, 
 }
 
 .corner-top-left {
-  -moz-border-radius-topleft: 0px;
-  -khtml-border-radius-topleft: 0px;
-  -webkit-border-top-left-radius: 0px;
-  border-top-left-radius: 0px;
+  -moz-border-radius-topleft: 15px;
+  -khtml-border-radius-topleft: 15px;
+  -webkit-border-top-left-radius: 15px;
+  border-top-left-radius: 15px;
 }
 
 .corner-top-right {
-  -moz-border-radius-topright: 0px;
-  -khtml-border-radius-topright: 0px;
-  -webkit-border-top-right-radius: 0px;
-  border-top-right-radius: 0px;
+  -moz-border-radius-topright: 15px;
+  -khtml-border-radius-topright: 15px;
+  -webkit-border-top-right-radius: 15px;
+  border-top-right-radius: 15px;
 }
 
 .corner-bottom-left {
-  -moz-border-radius-bottomleft: 0px;
-  -khtml-border-radius-bottomleft: 0px;
-  -webkit-border-bottom-left-radius: 0px;
-  border-bottom-left-radius: 0px;
+  -moz-border-radius-bottomleft: 15px;
+  -khtml-border-radius-bottomleft: 15px;
+  -webkit-border-bottom-left-radius: 15px;
+  border-bottom-left-radius: 15px;
 }
 
 .corner-bottom-right {
-  -moz-border-radius-bottomright: 0px;
-  -khtml-border-radius-bottomright: 0px;
-  -webkit-border-bottom-right-radius: 0px;
-  border-bottom-right-radius: 0px;
+  -moz-border-radius-bottomright: 15px;
+  -khtml-border-radius-bottomright: 15px;
+  -webkit-border-bottom-right-radius: 15px;
+  border-bottom-right-radius: 15px;
 }
 
 .corner-top {
-  -moz-border-radius-topleft: 0px;
-  -khtml-border-radius-topleft: 0px;
-  -webkit-border-top-left-radius: 0px;
-  -moz-border-radius-topright: 0px;
-  -khtml-border-radius-topright: 0px;
-  -webkit-border-top-right-radius: 0px;
-  border-top-left-radius: 0px;
-  border-top-right-radius: 0px;
+  -moz-border-radius-topleft: 15px;
+  -khtml-border-radius-topleft: 15px;
+  -webkit-border-top-left-radius: 15px;
+  -moz-border-radius-topright: 15px;
+  -khtml-border-radius-topright: 15px;
+  -webkit-border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
 }
 
 .corner-right {
-  -moz-border-radius-topright: 0px;
-  -khtml-border-radius-topright: 0px;
-  -webkit-border-top-right-radius: 0px;
-  -moz-border-radius-bottomright: 0px;
-  -khtml-border-radius-bottomright: 0px;
-  -webkit-border-bottom-right-radius: 0px;
-  border-top-right-radius: 0px;
-  border-bottom-right-radius: 0px;
+  -moz-border-radius-topright: 15px;
+  -khtml-border-radius-topright: 15px;
+  -webkit-border-top-right-radius: 15px;
+  -moz-border-radius-bottomright: 15px;
+  -khtml-border-radius-bottomright: 15px;
+  -webkit-border-bottom-right-radius: 15px;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
 }
 
-.corner-bottom, .nivoSlider img {
-  -moz-border-radius-bottomleft: 0px;
-  -khtml-border-radius-bottomleft: 0px;
-  -webkit-border-bottom-left-radius: 0px;
-  -moz-border-radius-bottomright: 0px;
-  -khtml-border-radius-bottomright: 0px;
-  -webkit-border-bottom-right-radius: 0px;
-  border-bottom-left-radius: 0px;
-  border-bottom-right-radius: 0px;
+.corner-bottom {
+  -moz-border-radius-bottomleft: 15px;
+  -khtml-border-radius-bottomleft: 15px;
+  -webkit-border-bottom-left-radius: 15px;
+  -moz-border-radius-bottomright: 15px;
+  -khtml-border-radius-bottomright: 15px;
+  -webkit-border-bottom-right-radius: 15px;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
 }
 
 .corner-left {
-  -moz-border-radius-topright: 0px;
-  -khtml-border-radius-topright: 0px;
-  -webkit-border-top-right-radius: 0px;
-  -moz-border-radius-bottomright: 0px;
-  -khtml-border-radius-bottomright: 0px;
-  -webkit-border-bottom-right-radius: 0px;
-  border-top-left-radius: 0px;
-  border-bottom-left-radius: 0px;
+  -moz-border-radius-topright: 15px;
+  -khtml-border-radius-topright: 15px;
+  -webkit-border-top-right-radius: 15px;
+  -moz-border-radius-bottomright: 15px;
+  -khtml-border-radius-bottomright: 15px;
+  -webkit-border-bottom-right-radius: 15px;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
 }
 
-.corner-all, .image-slider .center .captionContainer p.link, .nivoSlider, #slider-wrapper, #slider {
-  -moz-border-radius: 0px;
-  -webkit-border-radius: 0px;
-  -o-border-radius: 0px;
-  -ms-border-radius: 0px;
-  -khtml-border-radius: 0px;
-  border-radius: 0px;
-  border-top-right-radius: 0px;
-  border-top-left-radius: 0px;
-  border-bottom-right-radius: 0px;
-  border-bottom-left-radius: 0px;
+.corner-all {
+  -moz-border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -o-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -khtml-border-radius: 15px;
+  border-radius: 15px;
+  border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  border-bottom-left-radius: 15px;
 }
 
 .image-slider {
   position: relative;
   width: 100%;
   margin: 0 auto;
+  background: url(/images/bg-imageSlider.png) repeat-x;
 }
 .image-slider .center {
-  padding: 30px 0 15px;
-  border-left: 1px solid #911b56;
-  border-right: 1px solid #911b56;
-}
-.image-slider .center .captionContainer {
-  position: absolute;
-  width: 900px;
-  top: 200px;
-  left: 0;
-  margin: 0;
-  padding: 5px;
-  background: #a71f63;
-}
-.image-slider .center .captionContainer h1 {
-  margin: 5px 15px;
   padding: 0;
-  color: #8ccaee;
-  font-size: 30px;
-  font-weight: bolder;
-  text-align: left;
-  line-height: 1em;
-  word-spacing: 0.1em;
-  letter-spacing: -0.05em;
 }
-.image-slider .center .captionContainer h3 {
+.image-slider #stripe {
   position: relative;
-  top: 0px;
-  margin: 0 15px 10px;
-  padding: 0;
-  color: #efefef;
-  font-size: 14px;
-  font-weight: 200;
-  text-align: left;
-  line-height: 1.1em;
-}
-.image-slider .center .captionContainer p.link {
-  position: absolute;
-  bottom: 15px;
-  right: 30px;
-  color: white;
-  border: 1px solid #5ea6db;
-}
-.image-slider .center .captionContainer p.link a {
-  font-family: "EmbedFont-1";
-  display: block;
-  padding: 9px 2em 8px 2em;
-  color: inherit;
-  font-size: 11px;
-  font-weight: 200;
-  text-decoration: none;
-  text-transform: uppercase;
+  width: 100%;
+  height: 0;
+  border-top: 1px solid #c1c1c1;
+  border-bottom: 7px solid #9d0148;
 }
 
 .nivoSlider {
   position: relative;
-  width: 900px;
-  height: 300px;
+  margin-left: 80px;
+  width: 1200px;
+  height: 500px;
 }
 
 .nivoSlider img {
   position: absolute;
   top: 0px;
-  left: 0px;
-  width: 900px;
-  height: 300px;
+  left: 50px;
+  width: 1200px;
+  height: 500px;
 }
 
 .nivoSlider a.nivo-imageLink {
@@ -471,31 +430,31 @@ h1::-moz-selection, h2::-moz-selection, h3::-moz-selection, h4::-moz-selection, 
 }
 
 .nivo-directionNav {
-  width: 900px;
+  width: 1200px;
   margin: 0;
   padding: 0;
 }
 
 .nivo-directionNav a {
   position: absolute;
-  top: 79%;
+  bottom: 30px;
   z-index: 9;
   cursor: pointer;
   display: block;
-  width: 30px;
-  height: 30px;
+  width: 35px;
+  height: 50px;
   background: url(/images/nivo/arrows.png) no-repeat;
   text-indent: -9999px;
   border: 0;
 }
 
 a.nivo-prevNav {
-  right: 55px;
+  left: -60px;
 }
 
 a.nivo-nextNav {
-  right: 15px;
-  background-position: -30px 0;
+  right: 0;
+  background-position: -35px 0;
 }
 
 .nivo-controlNav a {
@@ -510,24 +469,23 @@ a.nivo-nextNav {
 
 #slider-wrapper {
   position: relative;
-  width: 900px;
-  height: 300px;
+  width: 100%;
+  height: 500px;
   margin: 0 auto;
   overflow: hidden;
-  border: 1px solid #dddddd;
-  background: #efefef;
+  background: transparent;
 }
 
 #slider {
   position: relative;
-  width: 900px;
-  height: 300px;
+  width: 1260px;
+  height: 500px;
 }
 
 #slider img {
   position: absolute;
   top: 0px;
-  left: 0px;
+  left: 50px;
   display: none;
 }
 
@@ -560,7 +518,7 @@ a.nivo-nextNav {
 .nivo-caption {
   position: absolute;
   top: 0;
-  height: 300px;
+  height: 500px;
 }
 
 .nivo-caption {
