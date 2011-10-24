@@ -1,4 +1,4 @@
-.font-helvetica, .container-setup, .body .center .content .left a.container, .body .center .content .middle a.container, .body .center .content .right a.container, .container-setup h1, .body .center .content .left a.container h1, .body .center .content .middle a.container h1, .body .center .content .right a.container h1 {
+.font-helvetica, .container-setup, .body .center .content .left a.container, .body .center .content .middle a.container, .body .center .content .right a.container, .container-setup h1, .body .center .content .left a.container h1, .body .center .content .middle a.container h1, .body .center .content .right a.container h1, .container-setup h3, .body .center .content .left a.container h3, .body .center .content .middle a.container h3, .body .center .content .right a.container h3, .container-setup p.link, .body .center .content .left a.container p.link, .body .center .content .middle a.container p.link, .body .center .content .right a.container p.link {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
@@ -18,7 +18,7 @@
   font-family: "Trebuchet MS", "Trebuchet", "Times New Roman";
 }
 
-.bg-gradient-primary, .container-setup, .body .center .content .left a.container, .body .center .content .middle a.container, .body .center .content .right a.container {
+.bg-gradient-primary {
   /* For WebKit (Safari, Google Chrome etc) */
   background: -webkit-gradient(linear, left top, left bottom, from(#8ccaee), to(#5ea6db));
   /* For Mozilla/Gecko (Firefox etc) */
@@ -52,11 +52,11 @@
 }
 
 h1::selection, h2::selection, h3::selection, h4::selection, h5::selection, h6::selection, p::selection, b::selection, a::selection {
-  background: #c5daf1;
+  background: #f1c276;
 }
 
 h1::-moz-selection, h2::-moz-selection, h3::-moz-selection, h4::-moz-selection, h5::-moz-selection, h6::-moz-selection, p::-moz-selection, b::-moz-selection, a::-moz-selection {
-  background: #c5daf1;
+  background: #f1c276;
 }
 
 .corner-top-left {
@@ -131,7 +131,7 @@ h1::-moz-selection, h2::-moz-selection, h3::-moz-selection, h4::-moz-selection, 
   border-bottom-left-radius: 15px;
 }
 
-.corner-all, .container-setup, .body .center .content .left a.container, .body .center .content .middle a.container, .body .center .content .right a.container, .container-setup p.link, .body .center .content .left a.container p.link, .body .center .content .middle a.container p.link, .body .center .content .right a.container p.link {
+.corner-all, .container-setup p.link, .body .center .content .left a.container p.link, .body .center .content .middle a.container p.link, .body .center .content .right a.container p.link {
   -moz-border-radius: 15px;
   -webkit-border-radius: 15px;
   -o-border-radius: 15px;
@@ -177,7 +177,7 @@ h1::-moz-selection, h2::-moz-selection, h3::-moz-selection, h4::-moz-selection, 
   box-sizing: border-box;
 }
 
-.opaque, .container-setup:hover, .body .center .content .left a.container:hover, .body .center .content .middle a.container:hover, .body .center .content .right a.container:hover {
+.opaque {
   opacity: 0.75;
   filter: alpha(opacity=75);
 }
@@ -201,7 +201,7 @@ b {
   font-weight: bold;
 }
 
-.font-helvetica, .container-setup, .body .center .content .left a.container, .body .center .content .middle a.container, .body .center .content .right a.container, .container-setup h1, .body .center .content .left a.container h1, .body .center .content .middle a.container h1, .body .center .content .right a.container h1 {
+.font-helvetica, .container-setup, .body .center .content .left a.container, .body .center .content .middle a.container, .body .center .content .right a.container, .container-setup h1, .body .center .content .left a.container h1, .body .center .content .middle a.container h1, .body .center .content .right a.container h1, .container-setup h3, .body .center .content .left a.container h3, .body .center .content .middle a.container h3, .body .center .content .right a.container h3, .container-setup p.link, .body .center .content .left a.container p.link, .body .center .content .middle a.container p.link, .body .center .content .right a.container p.link {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
@@ -221,7 +221,7 @@ b {
   font-family: "Trebuchet MS", "Trebuchet", "Times New Roman";
 }
 
-.bg-gradient-primary, .container-setup, .body .center .content .left a.container, .body .center .content .middle a.container, .body .center .content .right a.container {
+.bg-gradient-primary {
   /* For WebKit (Safari, Google Chrome etc) */
   background: -webkit-gradient(linear, left top, left bottom, from(#8ccaee), to(#5ea6db));
   /* For Mozilla/Gecko (Firefox etc) */
@@ -255,11 +255,11 @@ b {
 }
 
 h1::selection, h2::selection, h3::selection, h4::selection, h5::selection, h6::selection, p::selection, b::selection, a::selection {
-  background: #c5daf1;
+  background: #f1c276;
 }
 
 h1::-moz-selection, h2::-moz-selection, h3::-moz-selection, h4::-moz-selection, h5::-moz-selection, h6::-moz-selection, p::-moz-selection, b::-moz-selection, a::-moz-selection {
-  background: #c5daf1;
+  background: #f1c276;
 }
 
 .corner-top-left {
@@ -334,7 +334,7 @@ h1::-moz-selection, h2::-moz-selection, h3::-moz-selection, h4::-moz-selection, 
   border-bottom-left-radius: 15px;
 }
 
-.corner-all, .container-setup, .body .center .content .left a.container, .body .center .content .middle a.container, .body .center .content .right a.container, .container-setup p.link, .body .center .content .left a.container p.link, .body .center .content .middle a.container p.link, .body .center .content .right a.container p.link {
+.corner-all, .container-setup p.link, .body .center .content .left a.container p.link, .body .center .content .middle a.container p.link, .body .center .content .right a.container p.link {
   -moz-border-radius: 15px;
   -webkit-border-radius: 15px;
   -o-border-radius: 15px;
@@ -351,64 +351,61 @@ h1::-moz-selection, h2::-moz-selection, h3::-moz-selection, h4::-moz-selection, 
   position: relative;
   width: 100%;
   margin: 0 auto;
-  background: #f7f7f7;
-  border-top: 1px solid #c1c1c1;
-  border-bottom: 1px solid #c1c1c1;
 }
 .body .center {
   padding: 15px 0;
-  border-left: 1px solid #911b56;
-  border-right: 1px solid #911b56;
 }
 .body .center .content {
 @extent .box;
   width: 1200px;
   margin: 0 auto;
-  padding: 0;
+  padding: 30px 0 0 0;
 }
 .body .center .content .left a.container {
-  margin: 0px 29px 0 0;
+  margin: 0px;
+  background: transparent url(/images/icon-1.png) 17px 0px no-repeat;
+  border-right: 4px dotted #f1c276;
 }
 .body .center .content .middle a.container {
-  margin: 0px 29px 0 0;
+  margin: 0px;
+  background: transparent url(/images/icon-2.png) 17px 0px no-repeat;
+  border-right: 4px dotted #f1c276;
 }
 .body .center .content .right a.container {
   margin: 0;
+  background: transparent url(/images/icon-3.png) 17px 0px no-repeat;
 }
 
 .container-setup, .body .center .content .left a.container, .body .center .content .middle a.container, .body .center .content .right a.container {
   position: relative;
   display: inline;
   float: left;
-  width: 380px;
+  width: 399px;
   height: 200px;
-  border: 1px solid #499ad6;
   z-index: 20;
 }
 .container-setup h1, .body .center .content .left a.container h1, .body .center .content .middle a.container h1, .body .center .content .right a.container h1 {
   position: absolute;
-  top: 22.5px;
-  left: 22.5px;
+  top: 8px;
+  left: 72px;
   margin: 0 22.5px 0 0;
   color: white;
-  font-size: 24px;
+  font-size: 30px;
   font-weight: bold;
   word-spacing: 0.1em;
   letter-spacing: -0.05em;
 }
 .container-setup h3, .body .center .content .left a.container h3, .body .center .content .middle a.container h3, .body .center .content .right a.container h3 {
-  font-family: "EmbedFont-1";
   position: absolute;
-  top: 75px;
-  left: 22.5px;
-  margin: 0 76px 12px 0;
+  top: 45px;
+  left: 78px;
+  margin: 0 6px 12px 0;
   color: white;
-  font-size: 12px;
+  font-size: 15px;
   font-weight: 200;
   line-height: 1.3em;
 }
 .container-setup p.link, .body .center .content .left a.container p.link, .body .center .content .middle a.container p.link, .body .center .content .right a.container p.link {
-  font-family: "EmbedFont-1";
   position: absolute;
   bottom: 15px;
   left: 22.5px;
@@ -416,8 +413,5 @@ h1::-moz-selection, h2::-moz-selection, h3::-moz-selection, h4::-moz-selection, 
   color: #a71f63;
   font-size: 11px;
   font-weight: 200;
-  text-decoration: none;
-}
-.container-setup:hover, .body .center .content .left a.container:hover, .body .center .content .middle a.container:hover, .body .center .content .right a.container:hover {
   text-decoration: none;
 }

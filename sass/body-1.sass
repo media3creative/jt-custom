@@ -14,77 +14,71 @@
 	position: relative
 	width: 100%
 	margin: 0 auto
-	background: #f7f7f7
-	border-top: 1px solid #c1c1c1
-	border-bottom: 1px solid #c1c1c1
 	.center
 		@extend .center-container
 		@extend .clearfix
 		padding: ($v-gap/2) 0
-		border-left: 1px solid $secondary-dark
-		border-right: 1px solid $secondary-dark
 		.content
 			@extent .box
 			width: $inside-width
 			margin: 0 auto
-			padding: 0
+			padding: 30px 0 0 0
 			.left
 				a.container
 					@extend .container-setup
-					margin: 0px ($h-gap - 1) 0 0
-					//background: $accent-color url("/images/home_left.jpg") no-repeat
+					margin: 0px
+					background: transparent url(/images/icon-1.png) 17px 0px no-repeat
+					border-right: 4px dotted $option-border
 			.middle
 				a.container
 					@extend .container-setup
-					margin: 0px ($h-gap - 1) 0 0
-					//background: $accent-color url("/images/home_center.jpg") no-repeat
+					margin: 0px
+					background: transparent url(/images/icon-2.png) 17px 0px no-repeat
+					border-right: 4px dotted $option-border
 			.right
 				a.container
 					@extend .container-setup
 					margin: 0
-					//background: $accent-color url("/images/home_right.jpg") no-repeat
+					background: transparent url(/images/icon-3.png) 17px 0px no-repeat
 
 
 .container-setup
 	@extend .box
-	@extend .corner-all
 	@extend .font-helvetica
 	@extend .clearfix
-	@extend .bg-gradient-primary
 	position: relative
 	+float-left
-	width: (($inside-width - ($h-gap * 2)) / 3)
+	width: (($inside-width - (3)) / 3)
 	height: $option-height
 	//background: $option-bg
-	border: 1px solid $option-border
 	z-index: 20
 	h1
 		@extend .box
 		@extend .font-helvetica
 		position: absolute
-		top: ($v-gap * 0.75)
-		left: ($h-gap * 0.75)
+		top: 8px
+		left: 72px
 		margin: 0 ($h-gap * 0.75) 0 0
 		color: $option-title
-		font-size: 24px
+		font-size: 30px
 		font-weight: bold
 		word-spacing: .1em
 		letter-spacing: -0.05em
 	h3
 		@extend .box
-		font-family: "EmbedFont-1"
+		@extend .font-helvetica
 		position: absolute
-		top: 75px
-		left: ($h-gap * 0.75)
-		margin: 0 76px 12px 0
+		top: 45px
+		left: 78px
+		margin: 0 6px 12px 0
 		color: $option-text
-		font-size: 12px
+		font-size: 15px
 		font-weight: 200
 		line-height: 1.3em
 	p.link
 		@extend .box
 		@extend .corner-all
-		font-family: "EmbedFont-1"
+		@extend .font-helvetica
 		position: absolute
 		bottom: ($v-gap * 0.5)
 		left: ($h-gap * 0.75)
@@ -93,9 +87,6 @@
 		font-size: 11px
 		font-weight: 200
 		text-decoration: none
-	&:hover
-		text-decoration: none
-		@extend .opaque
 		
 		
 		

@@ -1,26 +1,11 @@
-- @sitename = "Anna Knows"
+- @sitename = "Jack Thomas"
 
 // MAIN NAVIGATION
-- @link1 = ["Home", "/home"]
+- @link1 = ["Call Jack at 713.305.2192", "#"]
 - @link2 = ["About", "/about"]
 - @link3 = ["Services", "/services"]
 - @link4 = ["Gallery", "/gallery"]
 - @link5 = ["Contact", "/contact"]
-
-// FOOTER LINKS
-- @linkA1 = ["Anna Jennings", "ssss"]
-- @linkA2 = ["(713) 398-8474", "ssss"]
-- @linkA3 = ["annaknows@ymail.com", "mailto:annaknows@ymail.com"]
-- @linkA4 = ["link name", "/path"]
-- @linkA5 = ["link name", "/path"]
-
-- @linkB1 = ["Facebook", "http://www.facebook.com/annaknowsfanpage"]
-- @linkB2 = ["Twitter", "http://twitter.com/annaknowscom"]
-- @linkB3 = ["LinkedIn", "http://www.linkedin.com/in/annaknows"]
-- @linkB4 = ["link name", "/path"]
-- @linkB5 = ["link name", "/path"]
-
-
 
 !!! 5
 %html
@@ -70,12 +55,12 @@
     :javascript
       $(window).load(function() {
           $('#slider').nivoSlider({
-                  effect:'fade', // Specify sets like: 'fold,fade,sliceDown'
+                  effect:'random', // Specify sets like: 'fold,fade,sliceDown'
                   slices: 15, // For slice animations
-                  boxCols: 19, // For box animations
-                  boxRows: 8, // For box animations
-                  animSpeed: 600, // Slide transition speed
-                  pauseTime: 6000, // How long each slide will show
+                  boxCols: 13, // For box animations
+                  boxRows: 5, // For box animations
+                  animSpeed: 300, // Slide transition speed
+                  pauseTime: 3500, // How long each slide will show
                   startSlide: 0, // Set starting Slide (0 index)
                   directionNav: true, // Next & Prev navigation
                   directionNavHide: false, // Only show on hover
@@ -86,7 +71,7 @@
                   controlNavThumbsReplace: '_thumb.jpg', // ...this in thumb Image src
                   keyboardNav: true, // Use left & right arrows
                   pauseOnHover: true, // Stop animation while hovering
-                  manualAdvance: true, // Force manual transitions
+                  manualAdvance: false, // Force manual transitions
                   captionOpacity: 1.0, // Universal caption opacity
                   prevText: 'Back', // Prev directionNav text
                   nextText: 'Next', // Next directionNav text
@@ -179,60 +164,10 @@
           %li
             %a#one.topnav{:href => @link1[1]}
               =@link1[0]
-          %li
-            %a#two.topnav{:href => @link2[1]}
-              =@link2[0]
-            .sub
-              %ul
-                / / %li
-                / /   %h2 Header
-                / %li
-                /   %a{:href => "#"} Navigation Link
-                / %li
-                /   %a{:href => "#"} Navigation Link
-                / %li
-                /   %a{:href => "#"} Navigation Link
-          %li
-            %a#three.topnav{:href => @link3[1]}
-              =@link3[0]
-          / %li
-          /   %a#four.topnav{:href => @link4[1]}
-          /     =@link4[0]
-          %li
-            %a#five.topnav{:href => @link5[1]}
-              =@link5[0]
           %li.endcap &nbsp;
 
     .content
       = yield
-    #footer
-      .center
-        .content
-          &nbsp;
-          .row
-            %p.logo-sm
-              %img{:src => "/images/logo-sm.png", :alt => @sitename+" Logo"}
-              %br
-              Anna Knows | Dedicated to connecting the consumer and business owner
-          .row
-            %p
-              =@linkA1[0]
-              =" | "
-              =@linkA2[0]
-              =" | "
-              %a{:href => @linkA3[1]}
-                =@linkA3[0]
-          .row
-            %p
-              %a{:href => @linkB1[1], :target => "_blank"} 
-                %img.icon{:src => "/images/facebook-color.png"}
-                =@linkB1[0]              
-              %a{:href => @linkB2[1], :target => "_blank"} 
-                %img.icon{:src => "/images/twitter-color.png"}
-                =@linkB2[0]
-              %a{:href => @linkB3[1], :target => "_blank"} 
-                %img.icon{:src => "/images/linkedin-color.png"}
-                =@linkB3[0]
               
                   
     .m3c-bar

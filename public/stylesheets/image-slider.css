@@ -52,11 +52,11 @@
 }
 
 h1::selection, h2::selection, h3::selection, h4::selection, h5::selection, h6::selection, p::selection, b::selection, a::selection {
-  background: #c5daf1;
+  background: #f1c276;
 }
 
 h1::-moz-selection, h2::-moz-selection, h3::-moz-selection, h4::-moz-selection, h5::-moz-selection, h6::-moz-selection, p::-moz-selection, b::-moz-selection, a::-moz-selection {
-  background: #c5daf1;
+  background: #f1c276;
 }
 
 .corner-top-left {
@@ -255,11 +255,11 @@ b {
 }
 
 h1::selection, h2::selection, h3::selection, h4::selection, h5::selection, h6::selection, p::selection, b::selection, a::selection {
-  background: #c5daf1;
+  background: #f1c276;
 }
 
 h1::-moz-selection, h2::-moz-selection, h3::-moz-selection, h4::-moz-selection, h5::-moz-selection, h6::-moz-selection, p::-moz-selection, b::-moz-selection, a::-moz-selection {
-  background: #c5daf1;
+  background: #f1c276;
 }
 
 .corner-top-left {
@@ -351,7 +351,7 @@ h1::-moz-selection, h2::-moz-selection, h3::-moz-selection, h4::-moz-selection, 
   position: relative;
   width: 100%;
   margin: 0 auto;
-  background: url(/images/bg-imageSlider.png) repeat-x;
+  background: transparent;
 }
 .image-slider .center {
   padding: 0;
@@ -360,8 +360,6 @@ h1::-moz-selection, h2::-moz-selection, h3::-moz-selection, h4::-moz-selection, 
   position: relative;
   width: 100%;
   height: 0;
-  border-top: 1px solid #c1c1c1;
-  border-bottom: 7px solid #9d0148;
 }
 
 .nivoSlider {
