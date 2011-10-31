@@ -4,20 +4,20 @@
 
 %link{:href => "stylesheets/body-1.css", :media => "all", :rel => "stylesheet", :type => "text/css"}
 
-#one.image-slider
-  .center
-    #slider-wrapper
-      #slider.nivoSlider
-        %img{:alt => "", :src => "/images/nivo/banner-1-1.png"}/
-        %img{:alt => "", :src => "/images/nivo/banner-1-2.png"}/
-        %img{:alt => "", :src => "/images/nivo/banner-1-3.png"}/
-
-
 .body
+  #one.image-slider
+    .center
+      %a{:name => "p1"}
+      #slider-wrapper
+        #slider.nivoSlider
+          %img{:alt => "", :src => "/images/nivo/banner-1-1.png"}
+          %img{:alt => "", :src => "/images/nivo/banner-1-2.png"}
+          %img{:alt => "", :src => "/images/nivo/banner-1-3.png"}
+          %img{:alt => "", :src => "/images/nivo/banner-1-4.png"}
   .center
     .content
-      #one.left
-        %a.container{:href => "/about"}
+      .left
+        .container#extra-btn-1
           %h1 Personal Care
           %h3 
             Private Day Time Health Care
@@ -27,19 +27,113 @@
             House Cleaning (very quick and thorough)
             %br
             Grocery Shopping &amp; Personal Shopping
-      #one.middle
-        %a.container{:href => "/services"}
+          .extra-content#extra-content-1
+            %h4 Home Health Care
+            %p.small Home health care is a wide range of health care services that can be given in your home. Jack helps you get better, regain your independence, and become as self-sufficient as possible.
+            %h4 Cleaning & House Work
+            %p.small Jack's cleaning services are thorough, consistent and customized. If you want us to skip a certain room, he does it. If you want a special service, just let him know. If you want to change your cleaning routine, simply call Jack. He'll take care of it.
+            %h4 Personal Shopper
+            %p.small In today's busy world, we realize that time is precious. Don't worry. Let Jack takes the pressure off of you. Just tell him what you need, how much you would like to spend, he will take it from there.
+      .middle
+        .container#extra-btn-2
           %h1 Other Services
           %h3
-            Car Maintenance &amp; Service Trips
+            Service Trips
             %br
             Setting Up Christmas Tree &amp; Decorating
             %br
             Truck Available
-      #one.right
-        %a.container{:href => "/contact"}
+          .extra-content#extra-content-2
+            %h4 Service Trips
+            %p.small There are many benefits of keeping up with regular car maintenance. Your car will last longer, it will require fewer serious repairs, and it will have a higher resale value. However, not everyone have time to regularly check their car. Give Jack a call and stop worrying about it. 
+            %h4 Christmas Tree & Decorating
+            %p.small The thought of putting up the ole Christmas tree got you down? All that trouble! All that mess. Well, don't worry! Once again, as the Holiday season approaches, Jack is here to help! Mend those frayed nerves and last minute party tensions by calling Jack!
+            %h4 Truck Available
+            %p.small Jack has truck available anytime if you need one. Moving has never been more convenient.  
+            %h4 Anything else?
+            %p.small Need help with just about anything else? Give Jack a call or send him an email. Chances are he got you covered!
+            %a{:name => "p2"}
+      .right
+        .container#extra-btn-3
           %h1 Call Jack 713.305.2192
           %h3
             20+ Years Experience!
             %br
             Professional references available upon request.
+            %br
+            %br 
+          .extra-content#extra-content-3
+            %span{:style => "color:#1C75BC;font-weight:bold;"} CONTACT JACK!
+            %iframe{:allowtransparency => "true", :frameborder => "0", :height => "650", :scrolling => "no", :src => "https://media3creative.wufoo.com/embed/x7w4x3/", :style => "width:100%;border:none;margin-top:-30px;"}
+      .separator
+      .section-content
+        %h1 ABOUT JACK THOMAS
+        .column
+          %img{:alt => "", :src => "/images/jack_pic.png", :width =>"375", :height => "465", :style =>"margin-left: 0px; margin-top: 0px;"}
+        .column
+          %h2 A letter from Jack
+          %p.small Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam suscipit commodo quam a bibendum. Pellentesque ac dolor eu massa luctus blandit. Pellentesque vehicula auctor ligula, in pharetra tortor ornare non. Donec placerat pretium aliquet. Nullam nunc dolor, lacinia et cursus in, sodales eu elit. Vestibulum quis urna dolor. Maecenas non metus libero, ut blandit quam.
+          %p.small Vestibulum nec massa velit. Fusce scelerisque ornare gravida. Fusce suscipit aliquet justo sagittis imperdiet. Mauris hendrerit quam eu nisl hendrerit id ornare nisi facilisis. Quisque lectus lorem, ullamcorper volutpat viverra id, luctus sit amet purus. Donec ut sapien quis ante consectetur vehicula et sed enim.
+          %p.small Sincerely, 
+          %img{:alt => "", :src => "/images/signature.png", :width =>"200", :height => "91", :style =>"margin-left: 20px; margin-top: 10px;"}
+          %br
+          %br
+          %a{:name => "p3"}
+        .column
+          %h2 What do other people say?
+          %p.small{:style => "font-style: italic"} "Proin ante nulla, tristique vitae tincidunt ac, fermentum eu mauris. Nunc ut lorem euismod felis adipiscing adipiscing. Sed eget felis mauris, a facilisis leo. In elementum rutrum lorem in sodales!"
+          %p.client-name Jeff Jones
+          %p.small{:style => "font-style: italic"} "Vestibulum tristique facilisis bibendum. Integer non lacus id erat luctus pulvinar vel a tellus. Aenean ac metus at leo condimentum lobortis!"
+          %p.client-name Katrina Joes
+          %p.small{:style => "font-style: italic"} "Nunc ipsum lectus, tempus vitae viverra sed, commodo a erat. Nunc at nisl quis massa rutrum rhoncus ac eget purus!"
+          %p.client-name Cara Chalmer
+      .separator
+      .section-content
+        %h1 JACK'S SERVICES
+        .column
+          .box
+            %img{:alt => "", :src => "/images/service_photo/service_1.jpg", :width =>"350", :height => "210", :style =>"margin-left: 15px; margin-top: 15px;"}
+            %h2{:style =>"color:white; font-size: 18px;"} HOME HEALTH CARE
+            %p.small Home health care is a wide range of health care services that can be given in your home. Home health care is usually less expensive, more convenient, and just as effective as care you get in a hospital. Jack helps you get better, regain your independence, and become as self-sufficient as possible.
+          .box
+            %img{:alt => "", :src => "/images/service_photo/service_2.jpg", :width =>"350", :height => "210", :style =>"margin-left: 15px; margin-top: 15px;"}
+            %h2{:style =>"color:white; font-size: 18px;"} HOUSE KEEPING
+            %p.small Jack's cleaning services are thorough, consistent and customized. If you want us to skip a certain room, he does it. If you want a special service, just let him know. If you want to change your cleaning routine, simply call Jack. He'll take care of it.
+        .column
+          .box
+            %img{:alt => "", :src => "/images/service_photo/service_3.jpg", :width =>"350", :height => "210", :style =>"margin-left: 15px; margin-top: 15px;"}
+            %h2{:style =>"color:white; font-size: 18px;"} PERSONAL SHOPPING
+            %p.small In today's busy world, we realize that time is precious. Don't worry. Let Jack takes the pressure off of you. Just tell him what you need, how much you would like to spend and he will take it from there.
+          .box
+            %img{:alt => "", :src => "/images/service_photo/service_4.jpg", :width =>"350", :height => "210", :style =>"margin-left: 15px; margin-top: 15px;"}
+            %h2{:style =>"color:white; font-size: 18px;"} SERVICE TRIPS
+            %p.small There are many benefits of keeping up with regular car maintenance. Your car will last longer, it will require fewer serious repairs, and it will have a higher resale value. However, not everyone have time to regularly check their car. Give Jack a call and stop worrying about it. 
+        .column
+          .box
+            %img{:alt => "", :src => "/images/service_photo/service_5.jpg", :width =>"350", :height => "210", :style =>"margin-left: 15px; margin-top: 15px;"}
+            %h2{:style =>"color:white; font-size: 18px;"} CHRISTMAS DECORATING
+            %p.small The thought of putting up the ole Christmas tree got you down? All that trouble! All that mess. Well, don't worry! Once again, as the Holiday season approaches, Jack is here to help! Mend those frayed nerves and last minute party tensions by calling Jack!
+          .box
+            %img{:alt => "", :src => "/images/service_photo/service_6.jpg", :width =>"350", :height => "210", :style =>"margin-left: 15px; margin-top: 15px;"}
+            %h2{:style =>"color:white; font-size: 18px;"} OTHERS
+            %p.small Jack has truck available anytime if you need one. Moving has never been more convenient. Need help with just about anything else? Give Jack a call or send him an email. Chances are he got you covered!
+      .separator
+        %a{:name => "p4"}
+      .section-content
+        %h1 CALL NOW | 713.305.2192 | help@jack-thomas.com
+        %h2 20+ Years Experience!
+        %h2 Professional references available upon request.
+        .column{:style => "width: 600px"}
+          %iframe{:allowtransparency => "true", :frameborder => "0", :height => "650", :scrolling => "no", :src => "https://media3creative.wufoo.com/embed/x7w4x3/", :style => "width:100%;border:none;margin-top:-30px;"}
+
+:javascript
+  //$("#extra-content-1 ,#extra-content-2, #extra-content-3").css("display","none")
+  //$('#extra-btn-1').click(function() {
+  //  $("#extra-content-1").slideToggle();
+  //});
+  //$('#extra-btn-2').click(function() {
+  //  $("#extra-content-2").slideToggle();
+  //});
+  //$('#extra-btn-3').click(function() {
+  //  $("#extra-content-3").slideToggle();
+  //});

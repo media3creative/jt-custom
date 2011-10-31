@@ -1428,13 +1428,16 @@ h1::-moz-selection, h2::-moz-selection, h3::-moz-selection, h4::-moz-selection, 
 html {
   margin: 0;
   padding: 0;
-  background: url(/images/bg-html.jpg) left top no-repeat;
+  background: url(/images/bg-html-white.jpg) no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 body {
   margin: 0;
   padding: 0;
-  background: url(/images/bg-html.jpg) left top no-repeat;
 }
 
 .content {

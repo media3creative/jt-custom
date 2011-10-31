@@ -1,4 +1,4 @@
-.font-helvetica, .container-setup, .body .center .content .left a.container, .body .center .content .middle a.container, .body .center .content .right a.container, .container-setup h1, .body .center .content .left a.container h1, .body .center .content .middle a.container h1, .body .center .content .right a.container h1, .container-setup h3, .body .center .content .left a.container h3, .body .center .content .middle a.container h3, .body .center .content .right a.container h3, .container-setup p.link, .body .center .content .left a.container p.link, .body .center .content .middle a.container p.link, .body .center .content .right a.container p.link {
+.font-helvetica, .container-setup, .body .center .content .left .container, .body .center .content .middle .container, .body .center .content .right .container, .container-setup h1, .body .center .content .left .container h1, .body .center .content .middle .container h1, .body .center .content .right .container h1, .container-setup h4, .body .center .content .left .container h4, .body .center .content .middle .container h4, .body .center .content .right .container h4, .container-setup h3, .body .center .content .left .container h3, .body .center .content .middle .container h3, .body .center .content .right .container h3, .container-setup p.link, .body .center .content .left .container p.link, .body .center .content .middle .container p.link, .body .center .content .right .container p.link, .section-content h1, .section-content h2 {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
@@ -131,7 +131,7 @@ h1::-moz-selection, h2::-moz-selection, h3::-moz-selection, h4::-moz-selection, 
   border-bottom-left-radius: 15px;
 }
 
-.corner-all, .container-setup p.link, .body .center .content .left a.container p.link, .body .center .content .middle a.container p.link, .body .center .content .right a.container p.link {
+.corner-all, .container-setup p.link, .body .center .content .left .container p.link, .body .center .content .middle .container p.link, .body .center .content .right .container p.link {
   -moz-border-radius: 15px;
   -webkit-border-radius: 15px;
   -o-border-radius: 15px;
@@ -144,16 +144,16 @@ h1::-moz-selection, h2::-moz-selection, h3::-moz-selection, h4::-moz-selection, 
   border-bottom-left-radius: 15px;
 }
 
-.clearfix, .body, .body .center, .container-setup, .body .center .content .left a.container, .body .center .content .middle a.container, .body .center .content .right a.container {
+.clearfix, .body, .body .center, .container-setup, .body .center .content .left .container, .body .center .content .middle .container, .body .center .content .right .container {
   zoom: 1;
 }
-.clearfix:before, .body:before, .body .center:before, .container-setup:before, .body .center .content .left a.container:before, .body .center .content .middle a.container:before, .body .center .content .right a.container:before {
+.clearfix:before, .body:before, .body .center:before, .container-setup:before, .body .center .content .left .container:before, .body .center .content .middle .container:before, .body .center .content .right .container:before {
   content: "\0020";
   display: block;
   height: 0;
   overflow: hidden;
 }
-.clearfix:after, .body:after, .body .center:after, .container-setup:after, .body .center .content .left a.container:after, .body .center .content .middle a.container:after, .body .center .content .right a.container:after {
+.clearfix:after, .body:after, .body .center:after, .container-setup:after, .body .center .content .left .container:after, .body .center .content .middle .container:after, .body .center .content .right .container:after {
   content: "\0020";
   display: block;
   height: 0;
@@ -170,7 +170,7 @@ h1::-moz-selection, h2::-moz-selection, h3::-moz-selection, h4::-moz-selection, 
   background: transparent;
 }
 
-.box, .center-container, .body .center, .body, .container-setup, .body .center .content .left a.container, .body .center .content .middle a.container, .body .center .content .right a.container, .container-setup h1, .body .center .content .left a.container h1, .body .center .content .middle a.container h1, .body .center .content .right a.container h1, .container-setup h3, .body .center .content .left a.container h3, .body .center .content .middle a.container h3, .body .center .content .right a.container h3, .container-setup p.link, .body .center .content .left a.container p.link, .body .center .content .middle a.container p.link, .body .center .content .right a.container p.link {
+.box, .center-container, .body .center, .body, .container-setup, .body .center .content .left .container, .body .center .content .middle .container, .body .center .content .right .container, .container-setup h1, .body .center .content .left .container h1, .body .center .content .middle .container h1, .body .center .content .right .container h1, .container-setup h3, .body .center .content .left .container h3, .body .center .content .middle .container h3, .body .center .content .right .container h3, .container-setup p.link, .body .center .content .left .container p.link, .body .center .content .middle .container p.link, .body .center .content .right .container p.link {
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
   -ms-box-sizing: border-box;
@@ -201,7 +201,7 @@ b {
   font-weight: bold;
 }
 
-.font-helvetica, .container-setup, .body .center .content .left a.container, .body .center .content .middle a.container, .body .center .content .right a.container, .container-setup h1, .body .center .content .left a.container h1, .body .center .content .middle a.container h1, .body .center .content .right a.container h1, .container-setup h3, .body .center .content .left a.container h3, .body .center .content .middle a.container h3, .body .center .content .right a.container h3, .container-setup p.link, .body .center .content .left a.container p.link, .body .center .content .middle a.container p.link, .body .center .content .right a.container p.link {
+.font-helvetica, .container-setup, .body .center .content .left .container, .body .center .content .middle .container, .body .center .content .right .container, .container-setup h1, .body .center .content .left .container h1, .body .center .content .middle .container h1, .body .center .content .right .container h1, .container-setup h4, .body .center .content .left .container h4, .body .center .content .middle .container h4, .body .center .content .right .container h4, .container-setup h3, .body .center .content .left .container h3, .body .center .content .middle .container h3, .body .center .content .right .container h3, .container-setup p.link, .body .center .content .left .container p.link, .body .center .content .middle .container p.link, .body .center .content .right .container p.link, .section-content h1, .section-content h2 {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
@@ -262,91 +262,6 @@ h1::-moz-selection, h2::-moz-selection, h3::-moz-selection, h4::-moz-selection, 
   background: #f1c276;
 }
 
-.corner-top-left {
-  -moz-border-radius-topleft: 15px;
-  -khtml-border-radius-topleft: 15px;
-  -webkit-border-top-left-radius: 15px;
-  border-top-left-radius: 15px;
-}
-
-.corner-top-right {
-  -moz-border-radius-topright: 15px;
-  -khtml-border-radius-topright: 15px;
-  -webkit-border-top-right-radius: 15px;
-  border-top-right-radius: 15px;
-}
-
-.corner-bottom-left {
-  -moz-border-radius-bottomleft: 15px;
-  -khtml-border-radius-bottomleft: 15px;
-  -webkit-border-bottom-left-radius: 15px;
-  border-bottom-left-radius: 15px;
-}
-
-.corner-bottom-right {
-  -moz-border-radius-bottomright: 15px;
-  -khtml-border-radius-bottomright: 15px;
-  -webkit-border-bottom-right-radius: 15px;
-  border-bottom-right-radius: 15px;
-}
-
-.corner-top {
-  -moz-border-radius-topleft: 15px;
-  -khtml-border-radius-topleft: 15px;
-  -webkit-border-top-left-radius: 15px;
-  -moz-border-radius-topright: 15px;
-  -khtml-border-radius-topright: 15px;
-  -webkit-border-top-right-radius: 15px;
-  border-top-left-radius: 15px;
-  border-top-right-radius: 15px;
-}
-
-.corner-right {
-  -moz-border-radius-topright: 15px;
-  -khtml-border-radius-topright: 15px;
-  -webkit-border-top-right-radius: 15px;
-  -moz-border-radius-bottomright: 15px;
-  -khtml-border-radius-bottomright: 15px;
-  -webkit-border-bottom-right-radius: 15px;
-  border-top-right-radius: 15px;
-  border-bottom-right-radius: 15px;
-}
-
-.corner-bottom {
-  -moz-border-radius-bottomleft: 15px;
-  -khtml-border-radius-bottomleft: 15px;
-  -webkit-border-bottom-left-radius: 15px;
-  -moz-border-radius-bottomright: 15px;
-  -khtml-border-radius-bottomright: 15px;
-  -webkit-border-bottom-right-radius: 15px;
-  border-bottom-left-radius: 15px;
-  border-bottom-right-radius: 15px;
-}
-
-.corner-left {
-  -moz-border-radius-topright: 15px;
-  -khtml-border-radius-topright: 15px;
-  -webkit-border-top-right-radius: 15px;
-  -moz-border-radius-bottomright: 15px;
-  -khtml-border-radius-bottomright: 15px;
-  -webkit-border-bottom-right-radius: 15px;
-  border-top-left-radius: 15px;
-  border-bottom-left-radius: 15px;
-}
-
-.corner-all, .container-setup p.link, .body .center .content .left a.container p.link, .body .center .content .middle a.container p.link, .body .center .content .right a.container p.link {
-  -moz-border-radius: 15px;
-  -webkit-border-radius: 15px;
-  -o-border-radius: 15px;
-  -ms-border-radius: 15px;
-  -khtml-border-radius: 15px;
-  border-radius: 15px;
-  border-top-right-radius: 15px;
-  border-top-left-radius: 15px;
-  border-bottom-right-radius: 15px;
-  border-bottom-left-radius: 15px;
-}
-
 .body {
   position: relative;
   width: 100%;
@@ -361,52 +276,67 @@ h1::-moz-selection, h2::-moz-selection, h3::-moz-selection, h4::-moz-selection, 
   margin: 0 auto;
   padding: 30px 0 0 0;
 }
-.body .center .content .left a.container {
+.body .center .content .left .container {
   margin: 0px;
   background: transparent url(/images/icon-1.png) 17px 0px no-repeat;
-  border-right: 4px dotted #f1c276;
 }
-.body .center .content .middle a.container {
+.body .center .content .middle .container {
   margin: 0px;
   background: transparent url(/images/icon-2.png) 17px 0px no-repeat;
-  border-right: 4px dotted #f1c276;
 }
-.body .center .content .right a.container {
+.body .center .content .right .container {
   margin: 0;
   background: transparent url(/images/icon-3.png) 17px 0px no-repeat;
 }
 
-.container-setup, .body .center .content .left a.container, .body .center .content .middle a.container, .body .center .content .right a.container {
+.separator {
+  width: 100%;
+  height: 5px;
+  float: left;
+  position: relative;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-bottom: 4px dotted #fbb03b;
+}
+
+.container-setup, .body .center .content .left .container, .body .center .content .middle .container, .body .center .content .right .container {
   position: relative;
   display: inline;
   float: left;
   width: 399px;
-  height: 200px;
+  height: auto;
   z-index: 20;
 }
-.container-setup h1, .body .center .content .left a.container h1, .body .center .content .middle a.container h1, .body .center .content .right a.container h1 {
-  position: absolute;
-  top: 8px;
-  left: 72px;
+.container-setup h1, .body .center .content .left .container h1, .body .center .content .middle .container h1, .body .center .content .right .container h1 {
   margin: 0 22.5px 0 0;
-  color: white;
+  margin-left: 75px;
+  color: #fbb03b;
   font-size: 30px;
   font-weight: bold;
   word-spacing: 0.1em;
   letter-spacing: -0.05em;
 }
-.container-setup h3, .body .center .content .left a.container h3, .body .center .content .middle a.container h3, .body .center .content .right a.container h3 {
-  position: absolute;
-  top: 45px;
-  left: 78px;
+.container-setup h4, .body .center .content .left .container h4, .body .center .content .middle .container h4, .body .center .content .right .container h4 {
+  font-weight: bold;
+  color: #1c75bc;
+  font-size: 14px;
+  margin-left: 10px;
+}
+.container-setup .small, .body .center .content .left .container .small, .body .center .content .middle .container .small, .body .center .content .right .container .small {
+  font-size: 13px;
+  margin-left: 10px;
+  margin-right: 5px;
+  letter-spacing: 0.002em;
+}
+.container-setup h3, .body .center .content .left .container h3, .body .center .content .middle .container h3, .body .center .content .right .container h3 {
   margin: 0 6px 12px 0;
-  color: white;
+  margin-left: 75px;
+  color: black;
   font-size: 15px;
   font-weight: 200;
   line-height: 1.3em;
 }
-.container-setup p.link, .body .center .content .left a.container p.link, .body .center .content .middle a.container p.link, .body .center .content .right a.container p.link {
-  position: absolute;
+.container-setup p.link, .body .center .content .left .container p.link, .body .center .content .middle .container p.link, .body .center .content .right .container p.link {
   bottom: 15px;
   left: 22.5px;
   display: inline;
@@ -414,4 +344,62 @@ h1::-moz-selection, h2::-moz-selection, h3::-moz-selection, h4::-moz-selection, 
   font-size: 11px;
   font-weight: 200;
   text-decoration: none;
+}
+
+.extra-content {
+  width: 315px;
+  height: 420px;
+  position: relative;
+  margin-top: 10px;
+  margin-left: 75px;
+  border-left: 1px dotted #f1c276;
+}
+
+.section-content {
+  width: 100%;
+  float: left;
+}
+.section-content h1 {
+  font-size: 46px;
+  color: #fbb03b;
+  letter-spacing: -0.1em;
+}
+.section-content .small {
+  font-size: 13px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.section-content .client-name {
+  font-size: 14px;
+  font-weight: bold;
+  color: #fbb03b;
+  margin-left: 270px;
+  margin-top: -10px;
+  margin-bottom: 30px;
+  border-bottom: 1px solid #fbb03b;
+}
+.section-content h2 {
+  font-weight: bold;
+  color: #1c75bc;
+  font-size: 14px;
+  margin-left: 15px;
+  margin-bottom: 10px;
+  margin-top: 20px;
+}
+.section-content .column {
+  float: left;
+  width: 380px;
+  margin-right: 10px;
+  margin-left: 10px;
+  height: auto;
+  min-height: 100px;
+}
+.section-content .column .box, .section-content .column .center-container, .section-content .column .body .center, .body .section-content .column .center, .section-content .column .body, .section-content .column .container-setup, .section-content .column .body .center .content .left .container, .body .center .content .left .section-content .column .container, .section-content .column .body .center .content .middle .container, .body .center .content .middle .section-content .column .container, .section-content .column .body .center .content .right .container, .body .center .content .right .section-content .column .container, .section-content .column .container-setup h1, .container-setup .section-content .column h1, .section-content .column .body .center .content .left .container h1, .body .center .content .left .container .section-content .column h1, .section-content .column .body .center .content .middle .container h1, .body .center .content .middle .container .section-content .column h1, .section-content .column .body .center .content .right .container h1, .body .center .content .right .container .section-content .column h1, .section-content .column .container-setup h3, .container-setup .section-content .column h3, .section-content .column .body .center .content .left .container h3, .body .center .content .left .container .section-content .column h3, .section-content .column .body .center .content .middle .container h3, .body .center .content .middle .container .section-content .column h3, .section-content .column .body .center .content .right .container h3, .body .center .content .right .container .section-content .column h3, .section-content .column .container-setup p.link, .container-setup .section-content .column p.link, .section-content .column .body .center .content .left .container p.link, .body .center .content .left .container .section-content .column p.link, .section-content .column .body .center .content .middle .container p.link, .body .center .content .middle .container .section-content .column p.link, .section-content .column .body .center .content .right .container p.link, .body .center .content .right .container .section-content .column p.link {
+  height: 400px;
+  background-color: #fbb03b;
+  margin-bottom: 20px;
+  border: 1px solid #fbb03b;
+  box-shadow: 10px 10px 5px #e6e6e6;
+  moz-box-shadow: 10px 10px 5px #e6e6e6;
+  webkit-box-shadow: 10px 10px 5px #e6e6e6;
 }

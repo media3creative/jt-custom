@@ -1,12 +1,7 @@
-@import compass/utilities
-@import compass/layout
-@import compass/css3
-
 @import partials/classes
 @import partials/variables
 @import partials/typography
 @import partials/color
-@import partials/corners
 
 .body
 	@extend .box
@@ -19,28 +14,36 @@
 		@extend .clearfix
 		padding: ($v-gap/2) 0
 		.content
-			@extent .box
+			@extent .box			
 			width: $inside-width
 			margin: 0 auto
 			padding: 30px 0 0 0
 			.left
-				a.container
+				.container
 					@extend .container-setup
 					margin: 0px
 					background: transparent url(/images/icon-1.png) 17px 0px no-repeat
-					border-right: 4px dotted $option-border
+					//border-right: 4px dotted $option-border
 			.middle
-				a.container
+				.container
 					@extend .container-setup
 					margin: 0px
 					background: transparent url(/images/icon-2.png) 17px 0px no-repeat
-					border-right: 4px dotted $option-border
+					//border-right: 4px dotted $option-border
 			.right
-				a.container
+				.container
 					@extend .container-setup
 					margin: 0
 					background: transparent url(/images/icon-3.png) 17px 0px no-repeat
-
+.separator
+	width: 100%
+	height: 5px
+	//background-color: #000000
+	float: left
+	position: relative
+	margin-top: 20px
+	margin-bottom: 20px
+	border-bottom: 4px dotted #FBB03B
 
 .container-setup
 	@extend .box
@@ -49,29 +52,36 @@
 	position: relative
 	+float-left
 	width: (($inside-width - (3)) / 3)
-	height: $option-height
+	height: auto
 	//background: $option-bg
 	z-index: 20
 	h1
 		@extend .box
 		@extend .font-helvetica
-		position: absolute
-		top: 8px
-		left: 72px
 		margin: 0 ($h-gap * 0.75) 0 0
-		color: $option-title
+		margin-left: 75px
+		color: #FBB03B
 		font-size: 30px
 		font-weight: bold
 		word-spacing: .1em
 		letter-spacing: -0.05em
+	h4
+		@extend .font-helvetica
+		font-weight: bold
+		color: #1C75BC
+		font-size: 14px
+		margin-left: 10px
+	.small
+		font-size: 13px
+		margin-left: 10px
+		margin-right: 5px
+		letter-spacing: 0.002em
 	h3
 		@extend .box
 		@extend .font-helvetica
-		position: absolute
-		top: 45px
-		left: 78px
 		margin: 0 6px 12px 0
-		color: $option-text
+		margin-left: 75px
+		color: black
 		font-size: 15px
 		font-weight: 200
 		line-height: 1.3em
@@ -79,7 +89,6 @@
 		@extend .box
 		@extend .corner-all
 		@extend .font-helvetica
-		position: absolute
 		bottom: ($v-gap * 0.5)
 		left: ($h-gap * 0.75)
 		display: inline
@@ -87,8 +96,55 @@
 		font-size: 11px
 		font-weight: 200
 		text-decoration: none
+.extra-content
+	width: 315px
+	height: 420px
+	position: relative
+	margin-top: 10px
+	margin-left: 75px
+	border-left: 1px dotted #F1C276
 		
-		
-		
-		
-		
+.section-content
+	width: 100%
+	float: left
+	h1
+		@extend .font-helvetica
+		font-size: 46px
+		color: #FBB03B
+		letter-spacing: -0.1em
+	.small
+		font-size: 13px
+		margin-left: 20px
+		margin-right: 20px
+	.client-name
+		font-size: 14px
+		font-weight: bold
+		color: #FBB03B
+		margin-left: 270px
+		margin-top: -10px
+		margin-bottom: 30px
+		border-bottom: 1px solid #FBB03B
+	h2
+		@extend .font-helvetica
+		font-weight: bold
+		color: #1C75BC
+		font-size: 14px
+		margin-left: 15px
+		margin-bottom: 10px
+		margin-top: 20px
+	.column
+		float: left
+		//background-color: #888889
+		width: 380px
+		margin-right: 10px
+		margin-left: 10px
+		height: auto
+		min-height: 100px
+		.box
+			height: 400px
+			background-color: #FBB03B
+			margin-bottom: 20px
+			border: 1px solid #FBB03B
+			box-shadow: 10px 10px 5px #E6E6E6
+			moz-box-shadow: 10px 10px 5px #E6E6E6
+			webkit-box-shadow: 10px 10px 5px #E6E6E6

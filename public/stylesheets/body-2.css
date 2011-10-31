@@ -354,8 +354,6 @@ h1::-moz-selection, h2::-moz-selection, h3::-moz-selection, h4::-moz-selection, 
 }
 .banner .center {
   padding: 30px 0 15px;
-  border-left: 1px solid #911b56;
-  border-right: 1px solid #911b56;
 }
 .banner .center .content {
 @extent .box;
@@ -364,8 +362,8 @@ h1::-moz-selection, h2::-moz-selection, h3::-moz-selection, h4::-moz-selection, 
   padding: 0;
 }
 .banner .center .content img.banner {
-  width: 1200px;
-  height: 205px;
+  width: 1260px;
+  height: 500px;
   margin: 0;
   padding: 0;
   border: 1px solid #dddddd;
@@ -378,8 +376,6 @@ h1::-moz-selection, h2::-moz-selection, h3::-moz-selection, h4::-moz-selection, 
 }
 .body .center {
   padding: 15px 0;
-  border-left: 1px solid #911b56;
-  border-right: 1px solid #911b56;
 }
 .body .center .content {
 @extent .box;

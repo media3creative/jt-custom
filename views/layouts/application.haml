@@ -31,9 +31,14 @@
     %script{:type => "text/javascript", :src => "javascripts/application.js"}
     %script{:type => "text/javascript", :src => "javascripts/jquery.hoverIntent.minified.js"}
     %script{:type => "text/javascript", :src => "javascripts/jquery.nivo.slider.pack.js"}
+    %script{:type => "text/javascript", :src => "javascripts/smoothscroll.js"}
 
     // MOBILE FOOTER FIX
     :javascript
+      $("#extra-btn-1").click(function(){
+      alert("tutu")
+      }
+      );
       //$(document).ready(function () {
         if(
           navigator.userAgent.match(/Android/i) ||
@@ -159,12 +164,14 @@
           %a{:href => @link1[1]}
             %img{:src => "/images/logo.png", :alt => ""+@sitename+" Logo"}
         %ul#topnav
-          %li.endcap &nbsp;
-          %li.leftspace &nbsp;
           %li
-            %a#one.topnav{:href => @link1[1]}
-              =@link1[0]
-          %li.endcap &nbsp;
+            %a{:href => "#p1"} HOME
+          %li
+            %a{:href => "#p2"} ABOUT
+          %li
+            %a{:href => "#p3"}  SERVICES
+          %li
+            %a{:href => "#p4"} CONTACT
 
     .content
       = yield
